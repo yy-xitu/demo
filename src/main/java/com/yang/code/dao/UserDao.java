@@ -23,4 +23,6 @@ import java.util.List;
 public interface UserDao {
     List<UserVO> getUsers();
     void insertUser(@Param("userName") String userName, @Param("password") String password);
+
+    UserVO getUserById(@Param("id") Integer id);
 }

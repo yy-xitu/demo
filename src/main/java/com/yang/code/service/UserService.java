@@ -27,6 +27,9 @@ public class UserService {
     public List<UserVO> list(){
         return userDao.getUsers();
     }
+    public UserVO getUserById(int id){
+        return userDao.getUserById(id);
+    }
 
     public void insert(UserBO bo){
         userDao.insertUser(bo.getUserName(),bo.getPassword());

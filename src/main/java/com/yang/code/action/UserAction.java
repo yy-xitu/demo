@@ -27,6 +27,8 @@ public class UserAction {
     @Autowired
     UserService userService;
 
+
+
     @RequestMapping(value = "test")
     public String test(Model model){
         model.addAttribute("s","test");
@@ -55,6 +57,5 @@ public class UserAction {
         UserBO bo = new UserBO(userName,password);
         userService.insert(bo);
         return "添加成功";
-
     }
 }
