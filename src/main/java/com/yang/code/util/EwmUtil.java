@@ -30,7 +30,7 @@ public class EwmUtil {
 
     public static void main(String[] args) {
         //生成链接
-        String url = "http://video.deepsealink.com/media/o_1f59sdetc1agu1po61p211uj31roq9.mp4";
+        String url = "http://video.deepsealink.com/media/o_1f5dq7qlchrk6rk13tg136q1nbi9.mp4";
         //配置生成路径
         String path = "d:uploadFile/";
         //生成文件名称
